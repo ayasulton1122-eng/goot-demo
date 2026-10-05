@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GOOT Resorts — Live Demo</title>
+<style>
+body{margin:0;background:#0a0907;color:#f5efe3;font-family:Arial,sans-serif;min-height:100vh;display:grid;place-items:center}
+main{max-width:850px;padding:48px;text-align:center}
+.logo{max-width:220px;margin-bottom:30px}
+h1{font-size:clamp(42px,7vw,76px);margin:0 0 12px;font-family:Georgia,serif;font-weight:400}
+p{color:#cfc5b4;font-size:18px;line-height:1.7}
+.actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:34px 0}
+a{display:inline-block;padding:15px 24px;border:1px solid #b99a5a;border-radius:4px;color:#fff;text-decoration:none}
+a.primary{background:#b99a5a;color:#111}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:35px;text-align:left}
+.card{border:1px solid #302b23;padding:18px;border-radius:6px;background:#11100d}
+small{color:#a99f90}
+</style>
+</head>
+<body>
+<main>
+<img class="logo" src="/assets/brand/goot-lockup.webp" alt="GOOT Resorts">
+<h1>GOOT Resorts</h1>
+<p>Luxury resort booking platform — cinematic bilingual website, live booking flow and protected administration dashboard.</p>
+<div class="actions">
+<a class="primary" href="/">Open Website Demo</a>
+<a href="/admin.html">Open Admin Demo</a>
+</div>
+<div class="grid">
+<div class="card"><strong>Live Booking</strong><br><small>Availability, dates, villas and guest details.</small></div>
+<div class="card"><strong>Admin Dashboard</strong><br><small>Bookings, customers, reports and revenue.</small></div>
+<div class="card"><strong>PostgreSQL</strong><br><small>Real database-backed demo environment.</small></div>
+<div class="card"><strong>Security</strong><br><small>Helmet, rate limiting, validation and admin protection.</small></div>
+</div>
+</main>
+</body>
+</html>

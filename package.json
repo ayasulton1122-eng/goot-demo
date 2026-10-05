@@ -1,0 +1,17 @@
+{
+  "name": "goot-resorts-demo",
+  "private": true,
+  "version": "2.0.1",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/init-db.js && node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "nodemailer": "^10.0.13",
+    "pg": "^8.16.3"
+  }
+}

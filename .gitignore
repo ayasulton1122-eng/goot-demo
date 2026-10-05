@@ -1,0 +1,17 @@
+# Local infrastructure (never commit)
+pgdata/
+pgsql/
+pgbin.zip
+extract-pg.ps1
+pw.tmp
+server/node_modules/
+server/.env
+server/goot-node.log
+server/goot-node.err
+server/start-goot.ps1
+
+# Demo deployment
+.env
+server/.env
+*.log
+*.err
